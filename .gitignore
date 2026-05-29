@@ -1,0 +1,48 @@
+# Dependencies
+frontend/node_modules/
+backend/venv/
+backend/env/
+backend/.venv/
+
+# Next.js Build Files
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Python Cache & Builds
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/api/__pycache__/
+backend/app/core/__pycache__/
+backend/app/db/__pycache__/
+backend/app/models/__pycache__/
+backend/app/schemas/__pycache__/
+backend/app/services/__pycache__/
+backend/app/utils/__pycache__/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+backend/ddr_reports.db
+backend/storage/
+
+# Environment Local Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env.local
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
